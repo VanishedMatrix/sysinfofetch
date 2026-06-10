@@ -22,7 +22,7 @@ Or compile manually:
 g++ -std=c++17 -O2 -o sysinfofetch.exe sysinfofetch.cpp -lws2_32 -liphlpapi -lpsapi -ladvapi32 -luser32
 ```
 
-To build the noconsole (GUI) version:
+To build the noconsole version:
 
 ```
 g++ -std=c++17 -O2 -DNOCONSOLE -o sysinfofetch_noconsole.exe sysinfofetch.cpp -lws2_32 -liphlpapi -lpsapi -ladvapi32 -luser32 -mwindows
